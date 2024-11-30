@@ -1,0 +1,16 @@
+[
+    {
+        "latitude": 8.365867, 
+        "longitude": 124.875466,
+        "message": "Mangima River",
+        "imageUrl": "assets/water.png",
+        "description": "Natural Water source."
+    },
+    {
+        "latitude": 8.3599,
+        "longitude": 124.8678,
+        "message": "Example ",
+        "imageUrl": "assets/dry_zone.jpg",
+        "description": "example only."
+    }
+]
