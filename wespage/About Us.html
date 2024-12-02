@@ -38,7 +38,24 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
-  
+        * {
+  box-sizing: border-box;
+    }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
    
 <body>
@@ -67,8 +84,23 @@
             </div>
         </nav>
     </div>     
+    <h2>Waterwise Team Members</h2>
 
-   
+    <div class="row">
+        <div class="column" style=" height: 350px; background-color:#aaa;">
+          <img src="/badat.png" alt="Image 1" style="width:100%; height:300px;">
+          <p style=" margin-left: 10rem;">SCARLETTE MANCAWAN</p>
+        </div>
+        <div class="column" style=" height: 350px; background-color:#bbb;">
+          <img src="/lalang.jpg" alt="Image 2" style="width:100%; height:300px;">
+          <p style=" margin-left: 10rem;">EVELYN SALDIVAR</p>
+        </div>
+        <div class="column" style="  height: 350px; background-color:#ccc;">
+            <img src="/antony.png" alt="Image 2" style="width:100%; height:300px;">
+            <p style=" margin-left: 10rem;">ANTONY CANETE</p>
+          </div>
+      </div>
+      
 
      <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
          <!-- Image on the Left-->
